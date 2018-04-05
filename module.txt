@@ -1,0 +1,22 @@
+{
+  "id": "Mawgooey",
+  "version": "0.1.1-SNAPSHOT",
+  "author": "",
+  "displayName": "Mawgooey",
+  "description": "This module contains a single mawGooey model that can be spawned with spawnPrefab mawGooey. The module has been generated with the Blender addon from the TeraMisc repository",
+  "dependencies": [
+    {
+      "id": "Core",
+      "minVersion": "1.0.0"
+    },
+    {
+      "id": "Pathfinding",
+      "minVersion": "0.2.0"
+    },
+    {
+      "id": "NameGenerator",
+      "minVersion": "0.4.0"
+    }
+  ],
+  "isServerSideOnly": false
+}
