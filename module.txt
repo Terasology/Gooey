@@ -1,22 +1,11 @@
 {
   "id": "Mawgooey",
   "version": "0.1.1-SNAPSHOT",
-  "author": "",
+  "author": "quaternius",
   "displayName": "Mawgooey",
-  "description": "This module contains a single mawGooey model that can be spawned with spawnPrefab mawGooey. The module has been generated with the Blender addon from the TeraMisc repository",
+  "description": "Introduces Gooey's 'odd' cousin to the game. Say hi, just don't get too close ..",
   "dependencies": [
-    {
-      "id": "Core",
-      "minVersion": "1.0.0"
-    },
-    {
-      "id": "Pathfinding",
-      "minVersion": "0.2.0"
-    },
-    {
-      "id": "NameGenerator",
-      "minVersion": "0.4.0"
-    }
+    {"id" : "WildAnimals", "minVersion" : "0.2.0"}
   ],
   "isServerSideOnly": false
 }

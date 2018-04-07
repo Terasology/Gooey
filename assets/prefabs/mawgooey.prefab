@@ -3,18 +3,11 @@
     "mesh": "mawgooey",
     "heightOffset": -0.8,
     "material": "mawgooeySkin",
-    "animation": "mawgooeyIdle",
+    "animation": "mawgooeyIdleFinal",
     "loop": true
   },
   "Behavior": {
-    "tree": "stray"
-  },
-  "FleeOnHit": {
-    "minDistance": 5,
-    "speedMultiplier": 1.2
-  },
-  "StrayIfIdle": {
-    "defaultSpeedMultiplier": 0.3
+    "tree": "Behaviors:hostileCritter"
   },
   "BlockDropGrammar": {
     "blockDrops": [],
@@ -24,8 +17,6 @@
   },
   "Stand": {
     "animationPool": [
-      "mawgooeyAttack",
-      "mawgooeyDeath",
       "mawgooeyIdleFinal"
     ]
   },
@@ -34,15 +25,22 @@
       "mawgooeyWalk"
     ]
   },
+  "MeleeAttack": {
+    "animationPool": [
+      "mawgooeyAttack"
+    ]
+  },
   "Die": {
-    "animationPool": []
+    "animationPool": [
+      "mawgooeyDeath"
+    ]
   },
   "persisted": true,
   "location": {},
   "Character": {},
   "AliveCharacter": {},
   "WildAnimal": {
-    "name": "Mawgooey",
+    "name": "MawGooey",
     "icon": "WildAnimals:mawgooeyIcon"
   },
   "NPCMovement": {},
@@ -73,8 +71,9 @@
   "Network": {},
   "MinionMove": {},
   "Health": {
-    "destroyEntityOnNoHealth": true,
-    "currentHealth": 7
+    "maxHealth": 50,
+    "currentHealth": 50,
+    "destroyEntityOnNoHealth": true
   },
   "BoxShape": {
     "extents": [
@@ -88,5 +87,9 @@
       "engine:debris",
       "engine:sensor"
     ]
+  },
+  "Follow": {},
+  "FindNearbyPlayers": {
+    "searchRadius" : 7
   }
 }
