@@ -1,9 +1,9 @@
 {
   "skeletalmesh": {
-    "mesh": "mawgooey",
+    "mesh": "mawGooey",
     "heightOffset": -0.8,
     "material": "mawgooeySkin",
-    "animation": "mawgooeyIdleFinal",
+    "animation": "mawGooey#IdleFinal",
     "loop": true
   },
   "Behavior": {
@@ -17,22 +17,22 @@
   },
   "Stand": {
     "animationPool": [
-      "mawgooeyIdleFinal"
+      "mawGooey#IdleFinal"
     ]
   },
   "Walk": {
     "animationPool": [
-      "mawgooeyWalk"
+      "mawGooey#Walk"
     ]
   },
   "MeleeAttack": {
     "animationPool": [
-      "mawgooeyAttack"
+      "mawGooey#Attack"
     ]
   },
   "Die": {
     "animationPool": [
-      "mawgooeyDeath"
+      "mawGooey#Death"
     ]
   },
   "persisted": true,
