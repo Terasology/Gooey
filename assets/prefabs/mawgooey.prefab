@@ -9,7 +9,7 @@
   "Behavior": {
     "tree": "Behaviors:hostileCritter"
   },
-  "BlockDropGrammar": {
+  "DropGrammar": {
     "blockDrops": [],
     "itemDrops": [
       "2*WildAnimals:meat"
