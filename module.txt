@@ -6,7 +6,7 @@
     "description": "Introduces Gooey's 'odd' cousin to the game. Say hi, just don't get too close ..",
     "dependencies": [
         { "id": "Drops", "minVersion": "1.0.1" },
-        { "id": "WildAnimals", "minVersion": "0.2.0" }
+        { "id": "WildAnimals", "minVersion": "1.0.0" }
     ],
     "isServerSideOnly": false,
     "isAsset": true
