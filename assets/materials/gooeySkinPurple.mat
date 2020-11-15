@@ -1,7 +1,8 @@
+
 {
     "shader" : "engine:genericMeshMaterial",
     "params" : {
-        "diffuse" : "MetalRenegades:gooeyCitizen",
+        "diffuse" : "MawGooey:gooeyPurple",
         "colorOffset" : [1.0, 1.0, 1.0],
         "textured" : true
     }
