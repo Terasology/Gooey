@@ -1,3 +1,7 @@
+<p align="center">
+<img src="./banner.png" alt="Gooey" />
+</p>
+
 # Gooey
 
 An asset module for our beloved gooeys.
