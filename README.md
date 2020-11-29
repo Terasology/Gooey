@@ -9,7 +9,7 @@ It provides the models, materials and textures for both Gooeys and their weird, 
 
 ## Gooeys
 
-The Gooey gLTF model can be referenced in prefabs with a `skeletalMesh` as `MawGooey:gooey`.
+The Gooey glTF model can be referenced in prefabs with a `skeletalMesh` as `MawGooey:gooey`.
 ```json5
   "skeletalMesh": {
     "mesh": "MawGooey:gooey"
@@ -39,13 +39,11 @@ The materials can be referenced in a `skeletalMesh` as `MawGooey:gooeySkin<color
 
 The material and texture assets are named based on the [HTML Color Names](https://htmlcolorcodes.com/color-names/) of the respective color code of the color used in the texture.
 
-
-
 ## MawGooeys
 
-The MawGooey gLTF model can be referenced in prefabs 
+The MawGooey glTF model can be referenced in prefabs 
 
-The Gooey gLTF model can be referenced in prefabs with a `skeletalMesh` as `MawGooey:mawgooey`.
+The Gooey glTF model can be referenced in prefabs with a `skeletalMesh` as `MawGooey:mawgooey`.
 ```json5
   "skeletalmesh": {
      "mesh": "MawGooey:mawgooey"
