@@ -9,31 +9,31 @@ It provides the models, materials and textures for both Gooeys and their weird, 
 
 ## Gooeys
 
-The Gooey glTF model can be referenced in prefabs with a `skeletalMesh` as `MawGooey:gooey`.
+The Gooey glTF model can be referenced in prefabs with a `skeletalMesh` as `Gooey:gooey`.
 ```json5
   "skeletalMesh": {
-    "mesh": "MawGooey:gooey"
+    "mesh": "Gooey:gooey"
   }
 ```
 
 The model currently comes with one animation only, which is the `ArmatureAction`.
-This animation can be referenced in a `skeletalMesh` with an `animationPool` as `MawGooey:gooey#ArmatureAction`.
+This animation can be referenced in a `skeletalMesh` with an `animationPool` as `Gooey:gooey#ArmatureAction`.
 ```json5
   "skeletalMesh": {
-    "mesh": "MawGooey:gooey",
+    "mesh": "Gooey:gooey",
     "animationPool": [
-      "MawGooey:gooey#ArmatureAction"
+      "Gooey:gooey#ArmatureAction"
     ],
     "loop": true
   }
 ```
 
 There is a bunch of textures and materials provided that allow for gooeys in many colors of the rainbow.
-The materials can be referenced in a `skeletalMesh` as `MawGooey:gooeySkin<color>` with `<color>` being the color name, e.g. "Blue".
+The materials can be referenced in a `skeletalMesh` as `Gooey:gooeySkin<color>` with `<color>` being the color name, e.g. "Blue".
 ```json5
   "skeletalMesh": {
-    "mesh": "MawGooey:gooey",
-    "material": "MawGooey:gooeySkinBlue"
+    "mesh": "Gooey:gooey",
+    "material": "Gooey:gooeySkinBlue"
   }
 ```
 
@@ -43,10 +43,10 @@ The material and texture assets are named based on the [HTML Color Names](https:
 
 The MawGooey glTF model can be referenced in prefabs 
 
-The Gooey glTF model can be referenced in prefabs with a `skeletalMesh` as `MawGooey:mawgooey`.
+The Gooey glTF model can be referenced in prefabs with a `skeletalMesh` as `Gooey:mawgooey`.
 ```json5
   "skeletalmesh": {
-     "mesh": "MawGooey:mawgooey"
+     "mesh": "Gooey:mawgooey"
    }
 ```
 
@@ -56,23 +56,23 @@ The model comes with four different animations:
 - IdleFinal
 - Walk
 
-These animations can be referenced in a `skeletalMesh` with an `animationPool` as `MawGooey:mawgooey#<animation>` with `<animation>` being the animation name, e.g. "Walk".
+These animations can be referenced in a `skeletalMesh` with an `animationPool` as `Gooey:mawgooey#<animation>` with `<animation>` being the animation name, e.g. "Walk".
 ```json5
   "skeletalMesh": {
-    "mesh": "MawGooey:mawgooey",
+    "mesh": "Gooey:mawgooey",
     "animationPool": [
-      "MawGooey:mawgooey#Walk"
+      "Gooey:mawgooey#Walk"
     ],
     "loop": true
   }
 ```
 
 Currently, there are three different color variants provided: Green, Purple, and Red.
-The materials can be referenced in a `skeletalMesh` as `MawGooey:mawgooeySkin<color>` with `<color>` being the color name, e.g. "Red".
+The materials can be referenced in a `skeletalMesh` as `Gooey:mawgooeySkin<color>` with `<color>` being the color name, e.g. "Red".
 ```json5
   "skeletalMesh": {
-    "mesh": "MawGooey:mawgooey",
-    "material": "MawGooey:mawgooeySkinRed"
+    "mesh": "Gooey:mawgooey",
+    "material": "Gooey:mawgooeySkinRed"
   }
 ```
 
