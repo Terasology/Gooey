@@ -1,8 +1,8 @@
 {
-    "id": "Mawgooey",
+    "id": "Gooey",
     "version": "1.0.0",
-    "author": "quaternius",
-    "displayName": "Mawgooey",
+    "author": "The Terasology Foundation",
+    "displayName": "Gooey & Friends",
     "description": "Introduces Gooey's 'odd' cousin to the game. Say hi, just don't get too close ..",
     "dependencies": [
         { "id": "Drops", "minVersion": "1.0.1" },
